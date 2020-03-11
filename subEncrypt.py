@@ -20,6 +20,8 @@ def reverseLetter(letter):
     elif(letter==" "):
         return " "
     elif(letter.isdigit()):
+        return ""+ str(abs(int(letter)-9))
+    else:
         return letter
 
 # sentence = input("Type a sentence: ")
